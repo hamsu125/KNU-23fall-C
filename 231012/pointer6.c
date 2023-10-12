@@ -8,7 +8,7 @@ void swap(int* p1, int* p2)
 
 void sort(int *p)
 {
-	int i, j, temp;
+	int i, j;
 	for (i = 0; i < 5 - 1; i++) {
 		for (j = i + 1; j < 5; j++) {
 			if (*(p + i) > *(p + j)) {
